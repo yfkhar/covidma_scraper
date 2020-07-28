@@ -1,16 +1,5 @@
-class CovidStat
-  def self.generate(data = [])
-    return "no data to parse" if data.empty?
+class Statistic
   
-    {
-      scrap_time: Time.now,
-      excluded_cases: data.pop,
-      total_cases: data.pop,
-      total_deaths: data.pop,
-      total_recovery: data.pop,
-      reported_at: Time.parse("#{data.pop(3).join("-")} #{data.pop(data.length).join}")
-    }
-  end
 end
 
 # statistics = {

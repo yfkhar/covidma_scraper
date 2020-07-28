@@ -6,7 +6,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "activerecord"
 gem "faraday"
-gem "httparty"
 gem "sinatra"
 gem "sinatra-activerecord"
 gem "sinatra-contrib"

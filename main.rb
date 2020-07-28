@@ -1,6 +1,6 @@
 require_relative 'base'
 require_relative 'data_parser'
-require_relative 'covid_stat'
+require_relative 'statistic'
 require_relative 'report'
 
 uri = "http://www.covidmaroc.ma/pages/accueilar.aspx".freeze
